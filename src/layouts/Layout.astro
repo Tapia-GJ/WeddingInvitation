@@ -1,0 +1,32 @@
+---
+import "../styles/global.css";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Mi boda</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style>
+	:root {
+		color-scheme: light dark;
+	},
+	html{
+		font-family: GeistSans, GeistSans Fallback;
+	},
+	body {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		background-color: (rgb(255, 255, 255 / 1));
+	}
+</style>
